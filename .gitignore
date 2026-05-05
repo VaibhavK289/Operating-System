@@ -1,28 +1,3 @@
-# Rust build artifacts
-target/
-Cargo.lock
-
-# OS Images and Bootloaders
-*.iso
-*.img
-*.bin
-*.elf
-
-# QEMU and Emulator logs
-qemu.log
-serial.log
-*.vmdk
-*.vdi
-
-# C/C++ Compiled Objects (if you use them for bootloaders/C interop)
-*.o
-*.a
-*.so
-*.dll
-
-# IDE and OS specific files
-.vscode/
-.idea/
-*.swp
-.DS_Store
-Thumbs.db
+/my_os/target/
+**/*.iso
+**/*.bin
